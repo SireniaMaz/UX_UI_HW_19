@@ -84,10 +84,23 @@ h1{
 button {
     color:#ffff;
     background-color: #1E82D9;
-    border-color: #1E82D9;
     font-size: 14px;
     margin: 10px;
+ 
 }
+.downloadResume {
+    grid-area: hover;
+    background-color: #1E82D9;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    transition: 0.3s;
+}
+.downloadResume:hover {
+    background-color:#F2AB91;
+  }
+  
 #mySkills {
     display: flex;
     flex-direction: column;

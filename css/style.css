@@ -1,0 +1,181 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alice', regular;
+    background-color: #ffff;
+}
+.header {
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+    background-color: #7B8C3E;
+    height: 80px;
+    padding-top: 3.2%;
+    width: 2100px;
+    
+}
+.inline-block ul{
+    list-style: none;
+    margin: 0px;
+    position: relative;
+    left: 1300px;
+}
+.inline-block li {
+    display: inline-block;
+}
+.inline-block a {
+    color: #ffff;
+    text-decoration: none;
+    width: 80px;
+    display: block;
+    padding: 28px;
+    font-family: alice;
+    text-align: justify;
+    font-size: 18px;
+}
+.inline-block a:hover{
+    background: #464f4f;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    margin-left: -17px;
+    margin-top: -120.8px;
+    position: relative;
+    left: 10px;
+    top: -6px;
+}
+h2 {
+    position: relative;
+    top: -70px;
+    right: -160px;
+    text-align: left;
+    font-family: alice;
+    color:#ffff;
+}
+.Box {
+    border: 2px solid black;
+    margin: auto;
+    width: 450px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 28x;
+
+}
+.heroImg {
+    background-image: "images\hero image.png";
+    width: 180px;
+    margin-left: 135px;
+}
+.content {
+    width: 315px;
+    margin-left: -55px;
+    font-size: 15px;
+    text-align: left;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    margin-left: center;
+}
+button {
+    color:#ffff;
+    background-color: #1E82D9;
+    border-color: #1E82D9;
+    font-size: 14px;
+    margin: 10px;
+}
+#mySkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: 10px;
+    position: relative;
+    left: 9px;
+}
+.skillCard img {
+    display: flex;
+    max-width: 150px;
+}
+.skillCard h3 {
+    display: flex;
+    max-width: 250px;
+}
+.skillcard p {
+    display: flex;
+    font-size:1.2rem;
+    font-family: alice;
+}
+#myWork-Grid {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.project-card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4 {
+    Font-Size: 20px;
+    Font-family:Alice;  
+    text-align: center;
+    
+}
+
+.footer {
+    background-color: #7B8C3E;
+    display:inline-block;
+    width: 2100px;
+    bottom: 0px;
+    position: relative;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    text-align: left;
+    margin:40px;
+    padding:10px;
+    text-decoration: none;
+    font-family: alice;
+    font-size: 18px;
+    display: block;
+    color: #ffff;
+}
+.footer li{
+    display: inline-block;
+    width: 80px;
+}
+@media screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+}
+.skillCard {
+    width: 100%;
+}
+.project-card {
+    grid-template-rows: max-content 1fr 1fr;
+    grid-template-columns: 100%;
+}
+ul {
+    width: 80%;
+}
+.content card {
+    float: center;
+}
